@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Melodie</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourite">Favorite</string>
+    <string name="trends">Trending</string>
+
+    <string name="trending">Trending in your country</string>
+    <string name="no_saved_tracks_text">You have no favorite songs in this list.</string>
+    <string name="favourite_songs_title">Favorite songs</string>
+    <string name="favourite_songs_slug">List of favorite songs</string>
+    <string name="top">TOP 50</string>
+    <string name="top_slug">Trending in different countries</string>
+    <string name="genres">Genres</string>
+    <string name="genres_slug">Select your favorite genre</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="trending_in_us">Trending</string>
+    <string name="czechia">Czech Republic</string>
+    <string name="usa">USA</string>
+    <string name="poland">Poland</string>
+    <string name="hungary">Hungary</string>
+    <string name="germany">Germany</string>
+    <string name="canada">Canada</string>
+    <string name="spain">Spain</string>
+
+    <string name="play">Play</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="playlist">Playlists</string>
+    <string name="settings">Settings</string>
+    <string name="track">song</string>
+    <string name="tracks">songs</string>
+    <string name="tracks2">skladieb</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search for...</string>
+    <string name="no_recent_tracks">No recent searches found.</string>
+    <string name="no_playlists">No Playlist is created</string>
+    <string name="new_tracks">Latest songs</string>
+    <string name="new_slug">New popular songs</string>
+    <string name="rate_us">Rate us</string>
+    <string name="settings_slug">Settings and informations</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="faq">FAQ</string>
+    <string name="follow_us">Follow us</string>
+    <string name="share">Share</string>
+    <string name="mail">tosiapps@gmail.com</string>
+    <string name="info">v1.0.0 © 2019, Slovakia</string>
+    <string name="delete_playlists">Delete Playlists</string>
+    <string name="search_for">Search results for:</string>
+    <string name="play_all">Play all</string>
+    <!-- ZDIELAT, MAIL -->
+
+    <string name="pop">Pop</string>
+    <string name="hiphop">Rap / Hip-hop</string>
+    <string name="rock">Rock</string>
+    <string name="china">China</string>
+    <string name="close">Cancel</string>
+    <string name="playlists">Playlists</string>
+    <string name="create_new_playlist">Create new Playlist</string>
+    <string name="successfully_created">successfully created and song added to Playlist</string>
+    <string name="please_fill_playlist_name">Please fill name of Playlist</string>
+    <string name="track_successfully_added_to_playlist">Song successfully added to Playlist</string>
+    <string name="track_already_exist_in_this_playlist">This song already exist in this Playlist</string>
+    <string name="playlist_with_name">Playlist with name</string>
+    <string name="already_exist">already exist</string>
+    <string name="permission">For full application functionality, please enable screen rendering.</string>
+
+    <string-array name="countries">
+        <item>@string/usa</item>
+        <item>@string/canada</item>
+        <item>@string/slovakia</item>
+        <item>@string/czechia</item>
+        <item>@string/poland</item>
+        <item>@string/hungary</item>
+        <item>@string/germany</item>
+        <item>@string/spain</item>
+    </string-array>
+
+    <string-array name="genres_headings">
+        <item>Pop</item>
+        <item>Hip-hop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>For kids</item>
+        <item>Classical</item>
+        <item>Electro</item>
+        <item>Soul</item>
+        <item>Latin</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trending_slug">Currently trending songs</string>
+    <string name="share_via">Share via</string>
+    <string name="download_melodie">Download Melodie - Free Music App</string>
+    <string name="playlists_successfully_deleted">Playlists successfully deleted</string>
+    <string name="close_app">Close App</string>
+    <string name="refresh">Refresh</string>
+    <string name="alert">Alert</string>
+    <string name="no_internet_connection">Please check your internet connection</string>
+
+    <string name="app_version_number">1.0</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+    <string name="lock_screen">Sorry, Melodie cannot play music when device is locked beacause it is against YouTube Terms.</string>
+    <string name="transaction_successful">Transaction successful, please close and open app again.</string>
+    <string name="welcome_to_melodie">Welcome to Melodie</string>
+    <string name="wtm_message">We are sorry, but we cannot play music in lock screen mode because it is against YouTube terms. You can use night mode instead.</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="no_downloaded_songs">You have not downloaded any songs.</string>
+    <string name="downloaded_songs">Downloaded Songs</string>
+    <string name="downloaded_songs_slug">List of downloaded songs</string>
+    <string name="download_started_moment">The download will start in a moment</string>
+    <string name="downloading">Downloading</string>
+</resources>

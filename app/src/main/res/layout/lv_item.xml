@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definig a container for you List Item-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- Defining where should text be placed. You set you text color here-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="7dp"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/list_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="17sp" />
+</LinearLayout>

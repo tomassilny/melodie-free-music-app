@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ListFrag">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorPrimary"
+            android:scaleType="centerCrop" />
+
+
+        <RelativeLayout
+            android:id="@+id/box"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/box"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/box_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/header_icon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/header_icon"
+                android:layout_toRightOf="@+id/header_icon"
+                android:text="@string/top"
+                android:textColor="#455786"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/header_icon"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:divider="@color/divider"
+                android:dividerHeight="2px"
+                android:drawSelectorOnTop="true"
+                android:footerDividersEnabled="false"
+                android:scrollbars="none"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/header_icon"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                app:srcCompat="@drawable/flash" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="276dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:foreground="?android:selectableItemBackground"
+                style="@style/spinner_style"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/header_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:entries="@array/countries"
+                android:tooltipText="Country" />
+
+
+            <Button
+                android:id="@+id/play_all_btn"
+                style="@style/play_all_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:foreground="?android:selectableItemBackground"
+                android:text="@string/play_all"
+                android:textColor="#fff"
+                android:textSize="24px"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

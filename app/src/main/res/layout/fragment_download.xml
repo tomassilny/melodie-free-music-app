@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tosiapps.melodiemusic.DownloadFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e7f0">
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <RelativeLayout
+                    android:id="@+id/box"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box"
+                    android:padding="15dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/no_saved_tracks_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@+id/listViewSaved"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/cactus" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView4"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="@string/no_downloaded_songs"
+                            android:textColor="@color/btn_listview_color"
+                            android:textSize="20sp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/box_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/icon"
+                        android:layout_toRightOf="@+id/icon"
+                        android:text="@string/downloaded_songs"
+                        android:textColor="#455786"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/box_slug"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/box_title"
+                        android:layout_alignStart="@+id/box_title"
+                        android:layout_alignLeft="@+id/box_title"
+                        android:text="@string/downloaded_songs_slug" />
+
+
+                    <ListView
+                        android:id="@+id/listViewSaved"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/box_slug"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="20dp"
+                        android:divider="@color/divider"
+                        android:dividerHeight="2px"
+                        android:drawSelectorOnTop="true"
+                        android:footerDividersEnabled="false"
+                        android:scrollbars="none"
+                        android:visibility="visible">
+
+
+                    </ListView>
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/download_accent" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

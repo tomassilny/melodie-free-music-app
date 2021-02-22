@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Melodie</string>
+    <string name="title_home">Domov</string>
+    <string name="title_favourite">Obľúbené</string>
+    <string name="trends">Trendy</string>
+
+    <string name="trending">Trendy na Slovensku</string>
+    <string name="trending_slug">Aktuálne populárne skladby</string>
+    <string name="no_saved_tracks_text">Nemáte žiadne obľúbené skladby v tomto zozname.</string>
+    <string name="favourite_songs_title">Obľúbené skladby</string>
+    <string name="favourite_songs_slug">Zoznam obľúbených skladieb</string>
+    <string name="top">TOP 50</string>
+    <string name="top_slug">Najpopulárnejšie skladby z rôznych krajín</string>
+    <string name="genres">Žánre</string>
+    <string name="genres_slug">Vyberte svoj obľúbený žáner</string>
+    <string name="slovakia">Slovensko</string>
+    <string name="trending_in_us">Populárne v USA</string>
+    <string name="czechia">Česko</string>
+    <string name="usa">USA</string>
+    <string name="poland">Poľsko</string>
+    <string name="hungary">Maďarsko</string>
+    <string name="germany">Nemecko</string>
+    <string name="canada">Kanada</string>
+    <string name="spain">Španielsko</string>
+
+    <string name="play">Prehrať</string>
+    <string name="add_to_playlist">Pridať do Playlistu</string>
+    <string name="playlist">Playlisty</string>
+    <string name="settings">Nastavenia</string>
+    <string name="track">skladba</string>
+    <string name="tracks">skladby</string>
+    <string name="tracks2">skladieb</string>
+    <string name="delete">Vymazať</string>
+    <string name="search">Vyhľadávanie...</string>
+    <string name="no_recent_tracks">Žiadne nedávne vyhľadávania neboli nájdené.</string>
+    <string name="no_playlists">Nie je vytvorený žiadny Playlist</string>
+    <string name="new_tracks">Najnovšie skladby</string>
+    <string name="new_slug">Nové populárne skladby</string>
+    <string name="rate_us">Ohodnoťte nás</string>
+    <string name="settings_slug">Nastavenia aplikácie a informácie</string>
+    <string name="remove_ads">Odstrániť reklamy</string>
+    <string name="faq">Často kladené otázky</string>
+    <string name="follow_us">Sledujte nás</string>
+    <string name="share">Zdieľať</string>
+    <string name="mail">tosiapps@gmail.com</string>
+    <string name="info">v1.0.0 © 2019, Slovakia</string>
+    <string name="delete_playlists">Odstrániť Playlisty</string>
+    <string name="search_for">Výsledky vyhľadávania pre:</string>
+    <string name="play_all">Prehrať všetko</string>
+    <!-- ZDIELAT, MAIL -->
+
+    <string name="pop">Pop</string>
+    <string name="hiphop">Rap / Hip-hop</string>
+    <string name="rock">Rock</string>
+    <string name="china">Čína</string>
+    <string name="close">Zrušiť</string>
+    <string name="playlists">Zoznam Playlistov</string>
+    <string name="create_new_playlist">Vytvoriť nový Playlist</string>
+    <string name="successfully_created">úspešne vytvorený a skladba bola pridaná do Playlistu</string>
+    <string name="please_fill_playlist_name">Prosím vyplňte meno Playlistu</string>
+    <string name="track_successfully_added_to_playlist">Skladba úspešne pridaná do Playlistu</string>
+    <string name="track_already_exist_in_this_playlist">Skladba v tomto Playliste už existuje</string>
+    <string name="playlist_with_name">Playlist s názvom</string>
+    <string name="already_exist">už existuje</string>
+    <string name="permission">Pre úplné fungovanie aplikácie prosím povoľte vykreslovanie cez obrazovku.</string>
+
+    <string-array name="countries">
+        <item>@string/usa</item>
+        <item>@string/canada</item>
+        <item>@string/slovakia</item>
+        <item>@string/czechia</item>
+        <item>@string/poland</item>
+        <item>@string/hungary</item>
+        <item>@string/germany</item>
+        <item>@string/spain</item>
+    </string-array>
+
+    <string-array name="genres_headings">
+        <item>Pop</item>
+        <item>Rap</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Pre deti</item>
+        <item>Klasická</item>
+        <item>Elektro</item>
+        <item>Soul</item>
+        <item>Latin</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_via">Zdieľať cez</string>
+    <string name="download_melodie">Stiahni si Melodie - Hudba zadarmo</string>
+    <string name="playlists_successfully_deleted">Playlisty úspešené odstránené</string>
+    <string name="close_app">Zavrieť aplikáciu</string>
+    <string name="refresh">Obnoviť</string>
+    <string name="alert">Upozornenie</string>
+    <string name="no_internet_connection">Prosím skontrolujte svoje internetové pripojenie</string>
+
+    <string name="app_version_number">1.0</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+    <string name="lock_screen">Prepáčte, Melodie nemôže prehrávať hudbu ak je zariadenia zamknuté, pretože je to v rozpore s podmienkami YouTube.</string>
+    <string name="transaction_successful">Platba prebehla v poriadku, reštartujte aplikáciu.</string>
+    <string name="welcome_to_melodie">Vitajte</string>
+    <string name="wtm_message">Ospravedlňujeme sa, ale prehrávanie v režime zamknutej obrazovky nie je možné, nakoľko je táto funkcia v rozpore s podmienkami YouTube. Namiesto toho môžete využiť nočný režim.</string>
+    <string name="downloaded">Stiahnuté</string>
+    <string name="no_downloaded_songs">Nenájdené žiadne stiahnuté skladby.</string>
+    <string name="downloaded_songs">Stiahnuté skladby</string>
+    <string name="downloaded_songs_slug">Zoznam stiahnutých skladieb</string>
+    <string name="download_started_moment">Sťahovanie o chvíľu začne</string>
+    <string name="downloading">Sťahovanie</string>
+</resources>

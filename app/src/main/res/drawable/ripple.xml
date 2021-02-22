@@ -1,0 +1,6 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#b4c4c4c4"> <!-- ripple color -->
+
+    <item android:drawable="@color/box_background"/> <!-- normal color -->
+
+</ripple>

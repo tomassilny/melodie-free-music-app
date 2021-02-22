@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tosiapps.melodiemusic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        android:hardwareAccelerated="true">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4006620366079806~1588305266"/>
+
+        <activity
+            android:name="com.tosiapps.melodiemusic.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tosiapps.melodiemusic.Player"
+            android:screenOrientation="portrait"
+            android:theme="@style/Them" />
+        <activity
+            android:name="com.tosiapps.melodiemusic.List"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.tosiapps.melodiemusic.FloatingViewService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name="com.tosiapps.melodiemusic.Search"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.tosiapps.melodiemusic.Buy"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.tosiapps.melodiemusic.DownloadActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.tosiapps.melodiemusic.StandOutExampleActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+
+
+
+        <service android:name="com.tosiapps.melodiemusic.MultiWindow" >
+        </service>
+        <service android:name="com.tosiapps.melodiemusic.SimpleWindow" >
+        </service>
+        <service android:name="com.tosiapps.melodiemusic.MostBasicWindow" >
+        </service>
+        <service android:name="com.tosiapps.melodiemusic.WidgetsWindow" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,266 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tosiapps.melodiemusic.SettingsFrag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e7f0">
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <RelativeLayout
+                    android:id="@+id/box"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/box_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/icon"
+                        android:layout_toRightOf="@+id/icon"
+                        android:text="@string/settings"
+                        android:textColor="#455786"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/box_slug"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/box_title"
+                        android:layout_alignStart="@+id/box_title"
+                        android:layout_alignLeft="@+id/box_title"
+                        android:text="@string/settings_slug" />
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/settings_violet" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/box_slug"
+                        android:weightSum="2"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:id="@+id/delete_playlists"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/playlist_violet"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/delete_playlists"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rate_us"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/star"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/rate_us"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/remove_ads"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/removeads"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/remove_ads"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/share"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/share"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/share"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/instagram"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/instagram"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/follow_us"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/info"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="?android:selectableItemBackground"
+                            android:padding="10dp"
+                            android:paddingLeft="10dp">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_centerHorizontal="false"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/info"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/info"
+                                android:textColor="#4d4d4d"
+                                android:textSize="18sp"
+                                tools:ignore="DuplicateIds" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
