@@ -1,6 +1,6 @@
 # Melodie Music App
 
-App for listen to free music using YouTube API. 
+App for listening to free music using YouTube API. 
 
 Technologies:
 - Java
