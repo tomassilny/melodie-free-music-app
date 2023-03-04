@@ -1,12 +1,22 @@
 # Melodie Music App
 
-App for listen to free music using YouTube API. Features:
+App for listen to free music using YouTube API. 
+
+Technologies:
+- Java
+- PHP
+- XML
+- Youtube API
+- JSON
+
+Features:
 <ul>
 <li>Show chart of TOP 50 songs from any country</li>
-<li>Play music in background</li>
-<li>Add songs to favorite</li>
+<li>Play music in the background</li>
+<li>Add songs to favorite list</li>
 <li>Create and add songs to playlists</li>
 <li>Search for any song you want</li>
+<li>Loop playing</li>
 </ul>
 
 <div style="float:left;">
